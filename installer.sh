@@ -9,6 +9,7 @@ brew install --cask telegram
 brew install --cask hammerspoon 
 brew install --cask caffeine
 brew install --cask dropbox
+brew install --cask notion
 brew install --cask pgadmin4
 brew install --cask zoom
 
@@ -20,4 +21,6 @@ brew install nvm
 
 pip3 install pandas
 pip3 install matplotlib 
-pip3 install jupyter
+pip3 install jupyterlab
+pip3 install notebook
+
