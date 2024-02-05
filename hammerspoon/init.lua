@@ -105,6 +105,9 @@ hs.hotkey.bind(cmd_ctrl, "m", function()
 hs.hotkey.bind(cmd_ctrl, "n", function()
     hs.application.launchOrFocus("Notion") end)
 
+hs.hotkey.bind(cmd_ctrl, "a", function()
+    hs.application.launchOrFocus("Arc") end)
+
 hs.hotkey.bind(cmd_ctrl, "s", function()
                 hs.application.launchOrFocus("Slack") end)
 
