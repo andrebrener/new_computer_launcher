@@ -8,7 +8,7 @@ brew install --cask visual-studio-code
 brew install --cask telegram 
 brew install --cask hammerspoon 
 brew install --cask caffeine
-brew install --cask dropbox
+brew install --cask nvm
 brew install --cask notion
 brew install --cask pgadmin4
 brew install --cask zoom
