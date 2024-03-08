@@ -11,6 +11,7 @@ brew install --cask caffeine
 brew install --cask notion
 brew install --cask pgadmin4
 brew install --cask zoom
+brew install --cask postman
 
 brew install python3
 brew install nvm
