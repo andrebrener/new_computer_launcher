@@ -2,7 +2,6 @@
 brew install --cask arc
 brew install --cask caffeine
 brew install --cask claude
-brew install --cask discord
 brew install --cask google-chrome
 brew install --cask hammerspoon
 brew install --cask linear-linear
