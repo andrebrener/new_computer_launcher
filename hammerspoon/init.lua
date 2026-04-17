@@ -52,7 +52,7 @@ hs.hotkey.bind(cmd_ctrl, "s", function()
 hs.hotkey.bind(cmd_ctrl, "t", function()
     hs.application.launchOrFocus("Telegram") end)
 
-hs.hotkey.bind(cmd_ctrl, "v", function()
+hs.hotkey.bind(cmd_ctrl, "x", function()
     hs.application.launchOrFocus("Visual Studio Code") end)
 
 hs.hotkey.bind(cmd_ctrl, "w", function()
