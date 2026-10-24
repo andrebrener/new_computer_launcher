@@ -24,8 +24,10 @@ brew install --cask codex
 brew install --cask cursor
 brew install --cask gcloud-cli
 brew install --cask google-chrome
+brew install --cask grok-bot
 brew install --cask hammerspoon
 brew install --cask linear
+brew install --cask logi-options+
 brew install --cask lulu
 brew install --cask notion
 brew install --cask orbstack
@@ -33,6 +35,7 @@ brew install --cask pgadmin4
 brew install --cask slack
 brew install --cask spotify
 brew install --cask telegram
+brew install --cask trezor-suite
 brew install --cask visual-studio-code
 brew install --cask whatsapp
 brew install --cask zoom
@@ -40,18 +43,16 @@ brew install --cask postman
 
 # Formulae
 brew install awscli
-brew install coreutils
 brew install ffmpeg
 brew install gh
 brew install go
 brew install mole
 brew install nvm
-brew install pandoc
 brew install postgresql@14
 brew install pyenv
 brew install pyenv-virtualenv
 brew install python3
-brew install r
+brew install supabase/tap/supabase
 brew install uv
 brew install weasyprint
 brew install yarn
