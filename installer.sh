@@ -16,7 +16,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 append_once 'eval "$(/opt/homebrew/bin/brew shellenv)"' ~/.zprofile
 
 # Cask apps
-brew install --cask arc
 brew install --cask caffeine
 brew install --cask claude
 brew install --cask claude-code
@@ -39,7 +38,6 @@ brew install --cask trezor-suite
 brew install --cask visual-studio-code
 brew install --cask whatsapp
 brew install --cask zoom
-brew install --cask postman
 
 # Formulae
 brew install awscli
