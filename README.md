@@ -45,7 +45,7 @@ Apps, with `ctrl` + `cmd`:
 
 | Key | App |
 |---|---|
-| `a` | Arc (not installed by the script) |
+| `a` | Google Chrome |
 | `c` | Claude |
 | `g` | Grok Bot |
 | `l` | Linear |
