@@ -19,6 +19,7 @@ append_once 'eval "$(/opt/homebrew/bin/brew shellenv)"' ~/.zprofile
 brew install --cask caffeine
 brew install --cask claude
 brew install --cask claude-code
+brew install --cask thebrowsercompany-dia
 brew install --cask gcloud-cli
 brew install --cask google-chrome
 brew install --cask grok-bot

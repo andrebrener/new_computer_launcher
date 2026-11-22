@@ -37,6 +37,9 @@ hs.hotkey.bind(cmd_ctrl, "a", function()
 hs.hotkey.bind(cmd_ctrl, "c", function()
     hs.application.launchOrFocus("Claude") end)
 
+hs.hotkey.bind(cmd_ctrl, "d", function()
+    hs.application.launchOrFocus("Dia") end)
+
 hs.hotkey.bind(cmd_ctrl, "g", function()
     hs.application.launchOrFocus("Grok Bot") end)
 
