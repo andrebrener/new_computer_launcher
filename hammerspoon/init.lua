@@ -32,13 +32,10 @@ hs.hotkey.bind({"shift"}, "up", function()
 local cmd_ctrl = {"ctrl", "cmd"}
 
 hs.hotkey.bind(cmd_ctrl, "a", function()
-    hs.application.launchOrFocus("Google Chrome") end)
+    hs.application.launchOrFocus("Dia") end)
 
 hs.hotkey.bind(cmd_ctrl, "c", function()
     hs.application.launchOrFocus("Claude") end)
-
-hs.hotkey.bind(cmd_ctrl, "d", function()
-    hs.application.launchOrFocus("Dia") end)
 
 hs.hotkey.bind(cmd_ctrl, "g", function()
     hs.application.launchOrFocus("Grok Bot") end)
