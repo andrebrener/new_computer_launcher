@@ -45,9 +45,8 @@ Apps, with `ctrl` + `cmd`:
 
 | Key | App |
 |---|---|
-| `a` | Google Chrome |
+| `a` | Dia |
 | `c` | Claude |
-| `d` | Dia |
 | `g` | Grok Bot |
 | `l` | Linear |
 | `m` | Spotify |
