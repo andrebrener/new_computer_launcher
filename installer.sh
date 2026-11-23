@@ -63,7 +63,7 @@ mkdir -p "$NVM_DIR"
 . "$(brew --prefix nvm)/nvm.sh" --no-use
 nvm install --lts
 nvm alias default 'lts/*'
-npm install -g pnpm yarn vercel netlify-cli
+npm install -g --allow-scripts=netlify-cli,pnpm,yarn,esbuild,unix-dgram pnpm yarn vercel netlify-cli
 
 # Shell config
 append_once 'export NVM_DIR="$HOME/.nvm"' ~/.zshrc
