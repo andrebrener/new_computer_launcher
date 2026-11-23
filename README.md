@@ -20,10 +20,10 @@ bash installer.sh
 
 - **Homebrew:** installs it if missing and adds it to `~/.zprofile`.
 - **Apps:** Homebrew casks.
+- **Hammerspoon:** symlinks `~/.hammerspoon/init.lua` to `hammerspoon/init.lua` in this repo.
 - **CLI tools:** Homebrew formulae.
 - **Node:** the LTS release through nvm, plus global `pnpm`, `yarn`, `vercel` and `netlify-cli`.
 - **Shell:** adds nvm, pyenv and `postgresql@14` to `~/.zshrc`.
-- **Hammerspoon:** symlinks `~/.hammerspoon/init.lua` to `hammerspoon/init.lua` in this repo.
 
 ## After installing
 

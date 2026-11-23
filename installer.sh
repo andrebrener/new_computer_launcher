@@ -38,6 +38,10 @@ brew install --cask visual-studio-code
 brew install --cask whatsapp
 brew install --cask zoom
 
+# Hammerspoon config, linked right after the casks so a later failure cannot skip it
+mkdir -p ~/.hammerspoon
+ln -sf "$REPO_DIR/hammerspoon/init.lua" ~/.hammerspoon/init.lua
+
 # Formulae
 brew install awscli
 brew install ffmpeg
@@ -66,7 +70,3 @@ append_once 'export NVM_DIR="$HOME/.nvm"' ~/.zshrc
 append_once '[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"' ~/.zshrc
 append_once 'eval "$(pyenv init --path)"' ~/.zshrc
 append_once 'export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"' ~/.zshrc
-
-# Hammerspoon config
-mkdir -p ~/.hammerspoon
-ln -sf "$REPO_DIR/hammerspoon/init.lua" ~/.hammerspoon/init.lua
