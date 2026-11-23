@@ -42,6 +42,9 @@ brew install --cask zoom
 mkdir -p ~/.hammerspoon
 ln -sf "$REPO_DIR/hammerspoon/init.lua" ~/.hammerspoon/init.lua
 
+# VS Code extensions (the cask links the `code` CLI into Homebrew's bin)
+code --install-extension anthropic.claude-code
+
 # Formulae
 brew install awscli
 brew install ffmpeg
