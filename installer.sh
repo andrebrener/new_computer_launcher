@@ -52,7 +52,6 @@ brew install python3
 brew install supabase/tap/supabase
 brew install uv
 brew install weasyprint
-brew install yarn
 
 # Node (via nvm) and global npm packages
 export NVM_DIR="$HOME/.nvm"
@@ -60,7 +59,7 @@ mkdir -p "$NVM_DIR"
 . "$(brew --prefix nvm)/nvm.sh" --no-use
 nvm install --lts
 nvm alias default 'lts/*'
-npm install -g pnpm vercel netlify-cli
+npm install -g pnpm yarn vercel netlify-cli
 
 # Shell config
 append_once 'export NVM_DIR="$HOME/.nvm"' ~/.zshrc
